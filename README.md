@@ -5,7 +5,7 @@
  
 
 # Features
-とりあえず[部長たちのデザイン](https://nittc-winds.github.io/44th-joint-concert/src)を起こした後色々やる感じ
+とりあえず[部長たちのデザイン](https://github.com/nittc-winds/44th-joint-concert/tree/main/src)を起こした後色々やる感じ
  
 # Requirement
 
