@@ -50,26 +50,10 @@
 ├── README.md
 ├── index.html         # プロジェクトルート直下に置いちゃう
 ├── src                # 部長たちのデザイン or 画像
-│   ├── Greetings.png
-│   ├── MicrosoftTeams-image (25).png
-│   ├── MicrosoftTeams-image (27).png
-│   ├── index.png
-│   ├── presentation.png
-│   └── program.png
 └── static             # 画像とCSS
     ├── css
     └── img
-        ├── clarinet.JPG
-        ├── clarinet_van.jpg
-        ├── contrabass.JPG
-        ├── dram1.JPG
-        ├── euphonium.JPG
-        ├── flute.JPG
-        ├── sax.JPG
-        ├── sax_nippa.jpg
-        ├── trombone.JPG
-        ├── trumpet.JPG
-        └── tuba.JPG
+
 
 4 directories, 20 files
 ```
