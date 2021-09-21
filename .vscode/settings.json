@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": true,
+    "editor.bracketPairColorization.enabled": true,
+    "html.format.enable": true,
+    "editor.formatOnPaste": true,
+    "editor.renderWhitespace": "all",
+    "files.eol": "\n",
+    "markdown.styles": [
+        "https://cdn.jsdelivr.net/npm/github-markdown-css@3.0.1/github-markdown.min.css"
+    ],
+}
