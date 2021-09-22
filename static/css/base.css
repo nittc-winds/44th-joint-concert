@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+
+body {
+  background-color: #DEF0FF;
+  background-image: url("../img/main_background.png"), url("../img/washi.png");
+  background-repeat: no-repeat;
+  background-position: top, bottom;
+  background-size: 100% auto;
+
+}
+
+h1.main {
+  font-family: 'Train One', cursive;
+  color: #ffffff;
+  padding-top: 15vh;
+  text-align: center;
+  padding-bottom: 40vh;
+}
+
+h2.main {
+  font-family: 'Fira Code', monospace;
+  color: #160202;
+  text-align: center;
+  padding-bottom: 30vh;
+}
+
+h2.school {
+  font-family: 'Fira Code', monospace;
+  text-align: center;
+  padding-bottom: 2vh;
+}
+
+ul {
+  list-style: none;
+  /* デフォルトのアイコンを消す */
+  margin: 0;
+  /* デフォルト指定上書き */
+  padding: 0;
+  /* デフォルト指定上書き */
+  text-align: center;
+  padding-bottom: 10vh;
+}
+
+
+li.program1 {
+  font-size: 1.5em;
+
+}
+
+.program1::before {
+  content: '\1D11E';
+  font-size: 1.5\2em;
+  display: inline-block;
+  padding-right: 0.5em;
+}
+
+li.program2 {
+  font-size: 1.5em;
+
+
+}
+
+.program2::before {
+  content: '\1D122';
+  font-size: 1.2em;
+  display: inline-block;
+  padding-right: 0.5em;
+}
+
+li.program3 {
+  font-size: 1.5em;
+
+}
+
+.program3::before {
+  content: '\1D121';
+  font-size: 1.2em;
+  display: inline-block;
+  padding-right: 0.5em;
+}
+
+/*　for PC　*/
+/* @media screen and (min-width:1024px) {
+
+  body {
+    background-position: top;
+    background-size: 50% auto;
+  }
+
+  h1.main {
+    padding-bottom: 50vh;
+  }
+} */
