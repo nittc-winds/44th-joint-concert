@@ -3,7 +3,7 @@
 .share-button {
   width: 200px;
   height: 80px;
-  background: #dfe6e9;
+  background: #E3E3E3;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -11,7 +11,7 @@
   overflow: hidden;
   position: relative;
   cursor: pointer;
-  transition: 0.3s linear;
+  transition: 0.5s linear;
 }
 
 .share-button:hover {
@@ -28,7 +28,7 @@
   line-height: 80px;
   z-index: 999;
 
-  transition: 0.3s linear;
+  transition: 0.5s linear;
   border-radius: 50px;
 }
 

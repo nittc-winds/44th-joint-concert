@@ -8,7 +8,8 @@ html {
 }
 
 body {
-  background-color: #DEF0FF;
+  /* background-color: #DEF0FF; */
+  background-color: #FEFEFC;
   background-image: url("../img/clarinet.JPG");
   background-repeat: no-repeat;
   background-position: top, bottom;
@@ -18,7 +19,7 @@ body {
 
 h1.main {
   font-family: 'Train One', cursive;
-  color: #ffffff;
+  color: #dfdfdf;
   padding-top: 15vh;
   text-align: center;
   padding-bottom: 40vh;
@@ -33,46 +34,53 @@ h2.main {
 
 /* https://bennettfeely.com/gradients/ */
 h2.school {
-  margin-left: 5vw;
-  padding-left: 5vw;
-  background:
-	repeating-linear-gradient(
-		45deg,
-		transparent,
-		transparent 1em,
-		moccasin 0,
-		moccasin 2em,
-		transparent 0,
-		transparent 3em,
-		powderblue 0,
-		powderblue 4em,
-		transparent 0,
-		transparent 5em,
-		lavender 0,
-		lavender 6em,
-		transparent 0,
-		transparent 7em,
-		beige 0,
-		beige 8em
-	),
-	repeating-linear-gradient(
-		-45deg,
-		transparent,
-		transparent 1em,
-		khaki 0,
-		khaki 2em,
-		transparent 0,
-		transparent 3em,
-		beige 0,
-		beige 4em,
-		transparent 0,
-		transparent 5em,
-		peachpuff 0,
-		peachpuff 6em
-	), whitesmoke;
+  text-align: center;
+  padding: 1.5em 1em;
+  /* display: inline-block; */
 
-background-blend-mode: multiply;
+  background:
+    repeating-linear-gradient(45deg,
+      transparent,
+      transparent 1em,
+      moccasin 0,
+      moccasin 2em,
+      transparent 0,
+      transparent 3em,
+      powderblue 0,
+      powderblue 4em,
+      transparent 0,
+      transparent 5em,
+      lavender 0,
+      lavender 6em,
+      transparent 0,
+      transparent 7em,
+      beige 0,
+      beige 8em),
+    repeating-linear-gradient(-45deg,
+      transparent,
+      transparent 1em,
+      khaki 0,
+      khaki 2em,
+      transparent 0,
+      transparent 3em,
+      beige 0,
+      beige 4em,
+      transparent 0,
+      transparent 5em,
+      peachpuff 0,
+      peachpuff 6em), whitesmoke;
+
+  background-blend-mode: multiply;
 }
+
+/* .accordion-button.collapsed {
+  background: blue
+} */
+
+
+/* .accordion-button.collapsed::after {
+  background: blue
+} */
 
 ul {
   list-style: none;

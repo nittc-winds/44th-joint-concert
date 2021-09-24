@@ -5,6 +5,7 @@
 html {
   max-width: 500px;
   margin: 0 auto;
+
 }
 
 body {
@@ -39,32 +40,26 @@ h2.school {
 
 ul {
   list-style: none;
-  /* デフォルトのアイコンを消す */
   margin: 0;
-  /* デフォルト指定上書き */
   padding: 0;
-  /* デフォルト指定上書き */
-  /* text-align: center; */
-  padding-left: 25vw;
+  text-align: center;
   padding-bottom: 20vh;
 }
 
 
 li.program1 {
   font-size: 1.5em;
-
 }
 
 .program1::before {
   content: '\1D11E';
-  font-size: 1.5\2em;
+  font-size: 1.5em;
   display: inline-block;
   padding-right: 0.5em;
 }
 
 li.program2 {
   font-size: 1.5em;
-
 
 }
 
@@ -96,19 +91,20 @@ ul.info {
   /* デフォルト指定上書き */
   padding-bottom: 5vh;
   padding-top: 1vh;
+  text-align: left;
+  display: inline-block;
 }
 
 li.composer {
   font-size: 1em;
-
 }
 
 .composer::before {
   content: '\266F';
   font-size: 1.2em;
-  display: inline-block;
   padding-right: 0.5em;
 }
+
 
 /*　for PC　*/
 /* @media screen and (min-width:1024px) {
