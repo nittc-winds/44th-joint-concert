@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&display=swap');
 
 html {
-  max-width: 500px;
+  max-width: 450px;
   margin: 0 auto;
 }
 
@@ -195,6 +195,6 @@ ul.listing {
   margin-bottom: 10vh;
 }
 
-.card-title{
+.card-title {
   font-family: 'Kaisei Tokumin', serif;
 }
