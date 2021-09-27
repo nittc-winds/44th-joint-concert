@@ -1,0 +1,13 @@
+body {
+  background-color: #DEF0FF;
+  /* background-color: #FEFEFC; */
+  background-image: none;
+
+}
+
+img {
+  /* margin: 15vh 3vh; */
+  padding: 15vh 2vh;
+  text-align: center;
+  width: 100%;
+}
